@@ -35,8 +35,8 @@ shinyServer(function(input, output) {
         
         output$bodyfat <- renderText({ 
             if (v$doCalculate == FALSE) return()
-            bodyfat = 4.686 - 0.1158 * input$height_cm + 0.0566 * input$age - 0.37 * input$neck + 0.736 * input$abdomen
-            + 0.2995 * input$forearm - 1.657 * input$writst
+            bodyfat = 7.776 - 0.1263 * input$height_cm + 0.05329 * input$age - 0.37239 * input$neck + 0.72955 * input$abdomen
+            + 0.27822 * input$forearm - 1.6408 * input$writst
             paste(bodyfat)
 
         })
