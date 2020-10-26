@@ -1,5 +1,8 @@
 # STAT628-Module-2
 
+## Contents
+This is the repository for STAT628 module 2, group 8's project. The data folder contains the raw and cleaned data. The code folder contains the code. The rest folder's funtionalities are as indicatied by their folder names.
+
 ## how to run the code
 Download the bodyfat.csv at data file and run two R scripts in the code folder.
 Or: 
